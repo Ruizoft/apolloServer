@@ -9,14 +9,15 @@
   },
   "babel": {
     "presets": [
-        "env",
-        "es2015",
-        "stage-0"
+      "env",
+      "es2015",
+      "stage-0"
     ]
-},
+  },
   "dependencies": {
     "apollo-server": "^2.0.5",
-    "graphql": "^0.13.2"
+    "graphql": "^0.13.2",
+    "pg": "^7.4.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -26,4 +27,3 @@
     "pm2": "^3.0.3"
   }
 }
-

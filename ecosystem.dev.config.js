@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: 'GraphQL Server',
+        name: 'Server',
         script: './src/index.js',
         watch: true,
         interpreter: 'babel-node',
